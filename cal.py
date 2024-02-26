@@ -1,7 +1,7 @@
 
 a = input('enter operator')
-b = input('enter 1st no.')
-c = input('enter 2nd no.')
+b = int(input('enter 1st no.'))
+c = int(input('enter 2nd no.'))
 if a =='+':
     print(a+b)
 elif a=='-':
